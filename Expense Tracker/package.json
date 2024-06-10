@@ -1,0 +1,59 @@
+{
+  "name": "expenseTracker",
+  "version": "1.0.0",
+  "description": "Expense Tracker",
+  "scripts": {
+    "start": "parcel serve public/index.html --public-url /",
+    "build": "parcel build public/index.html --public-url /",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhibksc/Learning_React.git#main"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhibksc/Learning_React/issues"
+  },
+  "homepage": "https://github.com/abhibksc/Learning_React/tree/main#readme",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.35",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^2.2.3",
+    "aos": "^2.3.4",
+    "firebase": "^10.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
+    "react-icons": "^5.0.1",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.3",
+    "typewriter-effect": "^2.21.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

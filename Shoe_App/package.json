@@ -1,0 +1,53 @@
+{
+  "name": "shoehose",
+  "version": "1.0.0",
+  "description": "Ecommerce App",
+  "scripts": {
+    "start": "parcel serve public/index.html --public-url /",
+    "build": "parcel build public/index.html --public-url /",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhibksc/Learning_React.git#main"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhibksc/Learning_React/issues"
+  },
+  "homepage": "https://github.com/abhibksc/Learning_React/tree/main#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.35",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shoeBlue {
+  @apply absolute  top-72 left-96 bg-transparent translate-y-28 p-8 flex flex-col gap-5 shadow-2xl shadow-black  rounded-lg border-2 border-yellow-200 text-white max-w-xl mx-auto text-center backdrop-filter backdrop-blur;
+}
+
+.nav{
+  @apply  fixed top-0 left-0 right-0 z-10 text-white p-4 flex justify-between items-center bg-transparent shadow-2xl w-screen  h-24 backdrop-filter backdrop-blur-lg;
+ 
+}
+
+
+.SellerForm{
+  @apply   mb-28 p-7 bg-transparent  mt-10 rounded-lg border-2 flex flex-col gap-5 w-full max-w-6xl mx-auto border-x-gray-900 shadow-gray-700 shadow-inner  ;
+}
+
+
+.Buyer_Quantity_btn{
+  @apply border h-20 p-2 w-24  text-black bg-blue-200 hover:bg-red-800 hover:text-white rounded-lg shadow-lg
+}
+
+.Seller_Quantity_btn{
+  @apply relative left-6 w-96 max-w-16 h-16 rounded-lg my-4 text-black bg-blue-200 hover:bg-red-800 hover:text-white shadow-lg
+}
+
+
+
+
+

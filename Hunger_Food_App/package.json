@@ -1,0 +1,33 @@
+{
+  "name": "namste-react-project",
+  "version": "1.0.0",
+  "description": "swiggy clone",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhibksc/Learning_React.git#main"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhibksc/Learning_React/issues"
+  },
+  "homepage": "https://github.com/abhibksc/Learning_React/tree/main#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.35",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.3"
+  }
+}

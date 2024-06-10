@@ -1,0 +1,196 @@
+
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loginbtn{
+  @apply  text-white   fixed left-[180px] top-[370px] w-[300px] h-[550px] md:h-[550px]    md:bg-transparent md:top-80 md:left-[650px] p-3 transform -translate-x-1/2 -translate-y-1/2 my-auto md:w-screen   md:max-w-96 rounded-lg   ;
+ 
+}
+
+.signup_div_form{
+  @apply  text-white   fixed left-[180px] top-[370px] w-[330px] h-[560px] md:h-[550px]   md:bg-transparent md:top-80 md:left-[650px] p-3 transform -translate-x-1/2 -translate-y-1/2 my-auto md:w-screen   md:max-w-96 rounded-lg   ;
+}
+
+.sign_up_btn{
+  @apply border p-4 rounded-lg w-40 mx-auto hover:bg-blue-400
+}
+
+
+
+.signup_form{
+  @apply rounded-md shadow-lg border-2 h-full  p-3 flex flex-col  justify-around 
+}
+
+.signin_form{
+  @apply rounded-md shadow-lg border-2 h-full  p-3 flex flex-col justify-around md:justify-around md:gap-10
+}
+
+
+.div_1{
+  @apply  flex flex-col bg-gradient-to-r from-blue-300 to-secondary 
+}
+
+
+
+.nav{
+  @apply   fixed  left-0 right-0 z-10 text-white   p-4  flex justify-between items-center bg-transparent shadow-md shadow-black w-screen  lg:h-20 backdrop-filter backdrop-blur ;
+
+  
+ 
+ 
+}
+
+.div_2{
+  @apply bg-gradient-to-r from-blue-300 to-secondary
+}
+
+.div_3{
+  @apply flex flex-col text-yellow-500 text-center p-5 gap-3 mt-10 bg-gradient-to-r from-blue-400 to-secondary
+}
+
+
+.div_4{
+  @apply border text-black font-bold rounded-lg p-1 w-44 mx-auto hover:bg-yellow-200
+}
+
+
+.div_5{
+  @apply mt-5 bg-violet-500   text-center mx-auto p-3 w-[300px]  lg:w-[300px] shadow-lg shadow-red-950 rounded-full
+}
+
+
+.div_6{
+  @apply hidden lg:block mt-5  md:w-[350px] text-center mx-auto p-3 lg:w-[1000px]  
+}
+
+.div_7{
+  @apply text-left mt-10 flex flex-col gap-3 mx-auto text-white
+}
+
+.div_8{
+  @apply flex flex-col justify-between border rounded-lg mx-3 gap-8 bg-violet-950
+}
+
+.div_9{
+  @apply hidden lg:block mt-5  md:w-[350px] text-center mx-auto p-3 lg:w-[1000px]  
+}
+
+.div_10{
+  @apply hidden lg:block mt-5  md:w-[350px] text-center mx-auto p-3 lg:w-[1000px]  
+}
+
+.editbtn{
+  @apply px-3 rounded-md font-bold text-gray-300 bg-violet-500
+}
+
+.dltbtn{
+  @apply px-2 rounded-md font-bold text-gray-300 bg-violet-600
+
+}
+
+.div_11{
+  @apply md:hidden fixed z-20 top-16 left-16 px-3 py-1 bg-transparent rounded-md shadow-lg font-bold text-white
+}
+
+.div_12{
+  @apply flex flex-col  h-96 border-t-2  bg-gradient-to-r from-blue-300 to-secondary
+}
+
+.div_13{
+  @apply mx-auto flex flex-col justify-around h-40 mt-16  gap-3 p-3 text-center
+}
+
+.emailbtn{
+  @apply border-2 rounded-lg w-40 mx-auto hover:bg-blue-300
+}
+
+.div_14{
+  @apply bg-gradient-to-r from-red-600 to-secondary
+}
+
+.div_15{
+  @apply hidden lg:block  mt-28 bg-gradient-to-r from-red-600 to-secondary h-screen
+}
+
+.div_16{
+  @apply w-[400px] h-[400px] flex flex-col justify-around p-4 text-center mt-16 mb-5 border  rounded-lg shadow-violet-500 shadow-md
+}
+
+.updateBtn{
+  @apply border-2 rounded-lg bg-gradient-to-r from-secondary  to-blue-300 w-28
+}
+
+.div_17{
+  @apply md:hidden rounded-full  
+}
+
+.img{
+  @apply w-[350px] rounded-full h-[350px] shadow-lg shadow-rose-900
+}
+
+.div_18{
+  @apply rounded-sm border-2 p-1 text-center border-black
+}
+
+.div_19{
+  @apply w-screen h-[300px] flex flex-col justify-around p-4 text-center mt-16 mb-5 border  rounded-lg shadow-violet-500 shadow-md
+}
+
+.updatebtn{
+  @apply border-2 rounded-lg bg-gradient-to-r from-secondary  to-blue-300 w-28
+}
+
+.div_20{
+  @apply flex justify-center relative h-screen   bg-gradient-to-r from-blue-300 to-secondary 
+}
+
+.div_21{
+  @apply text-center relative h-80 top-36 bg-gradient-to-r from-blue-300 to-secondary rounded-lg border-2 p-3 flex flex-col w-96 shadow-lg shadow-blue-300 justify-around
+}
+
+.div_22{
+  @apply rounded-sm border-2 p-1 text-center border-black
+}
+
+.addbtn{
+  @apply border-2 rounded-lg bg-gradient-to-r from-secondary  to-blue-300 
+}
+
+.div_23{
+  @apply absolute h-screen w-screen bg-gradient-to-r from-blue-300 to-secondary 
+}
+
+.div_24{
+  @apply text-center rounded-xl relative flex flex-col top-28 mx-auto gap-4 border-2 p-4  shadow-violet-500 shadow-xl
+}
+
+.div_25{
+  @apply border-2 p-1 rounded-lg w-72 mx-auto 
+}
+
+.div_26{
+  @apply border p-2 rounded-lg  mx-auto hover:bg-blue-400
+}
+
+
+
+
+
+
+
+
+@keyframes spin {
+  0% { transform: rotate(55deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spin {
+  animation: spin 3s linear infinite;
+}
+
+
+
+
+
+
